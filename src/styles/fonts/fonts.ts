@@ -1,5 +1,5 @@
-import { css } from 'styled-components';
+import { css } from 'styled-components'
 
-export const PoppinsFont = css`
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-`;
+export const LatoFont = css`
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+`

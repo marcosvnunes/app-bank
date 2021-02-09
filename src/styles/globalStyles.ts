@@ -1,8 +1,8 @@
-import { createGlobalStyle } from 'styled-components';
-import { PoppinsFont } from './fonts/fonts'
+import { createGlobalStyle } from 'styled-components'
+import { LatoFont } from './fonts/fonts'
 
 const GlobalStyle = createGlobalStyle`
-  ${PoppinsFont}
+  ${LatoFont}
 
   *{
     margin:0;
@@ -10,8 +10,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing:border-box;
   }
   body {
-    font-family:'Poppin', sans-serif;
+    font-family:'Lato', sans-serif;
+    color: #172765;
   }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle

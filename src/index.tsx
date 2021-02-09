@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Home from './page/home';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Home from './page/home'
 import GlobalStyles from './styles/globalStyles'
-
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,4 +9,4 @@ ReactDOM.render(
     <GlobalStyles />
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
